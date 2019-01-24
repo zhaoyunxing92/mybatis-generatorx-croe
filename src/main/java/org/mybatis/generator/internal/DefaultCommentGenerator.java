@@ -53,6 +53,7 @@ public class DefaultCommentGenerator implements CommentGenerator {
         suppressAllComments = false;
     }
 
+    @Override
     public void addJavaFileComment(CompilationUnit compilationUnit) {
         // add no file level comments by default
         return;

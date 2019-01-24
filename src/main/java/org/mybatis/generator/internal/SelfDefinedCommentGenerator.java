@@ -20,7 +20,6 @@ import static org.mybatis.generator.internal.util.StringUtility.isTrue;
 
 /**
  * @author zhaoyunxing
- * @class: org.mybatis.generator.internal.SelfDefinedCommentGenerator
  * @date: 2018-10-24 00:30
  * @des: 自定义的注释
  */
@@ -36,6 +35,7 @@ public class SelfDefinedCommentGenerator implements CommentGenerator {
     private String currentYear;
 
     public SelfDefinedCommentGenerator() {
+
         super();
         properties = new Properties();
         systemPro = System.getProperties();
